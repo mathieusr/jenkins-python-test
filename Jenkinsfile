@@ -22,7 +22,7 @@ pipeline {
                     [$class: 'DevelopersRecipientProvider'],
                     [$class: 'RequesterRecipientProvider']
                 ],
-                subject: 'Build completed',
+                subject: 'Build completed'
         }
     }
 }
